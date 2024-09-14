@@ -4,8 +4,8 @@ const gif = qs(".gif");
 const [yesBtn, noBtn] = [".yes-btn", ".no-btn"].map(qs);
 
 const handleYesClick = () => {
-  question.innerHTML = "Yeahhhhhhhhhhh! See you tomorrow!!";
-  gif.src = "https://media.giphy.com/media/fBPDt7yAbP9LSxRM7Q/giphy.gif";
+  question.innerHTML = "Mwuaa Mwuaa";
+  gif.src = "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzU4c2k4NTE5eW85ajd2M2Y5NGppMnNkaGh2cnliZTA4YnF5ZjduNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ULICv4YuYnCBG/giphy.webp";
 
   // Remove the 'mouseover' event listener from noBtn
   noBtn.removeEventListener("mouseover", handleNoMouseOver);
@@ -121,7 +121,7 @@ const handleYesClick = () => {
 
   // Create and style a new button for Let's Go!
   const letsGoBtn = document.createElement("button");
-  letsGoBtn.textContent = "Let's Go!";
+  letsGoBtn.textContent = "Eyy!!!";
   letsGoBtn.classList.add("letsgo-btn"); // You can add a class for styling if needed
   letsGoBtn.style.position = "absolute";
 
