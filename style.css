@@ -9,10 +9,10 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: green;
+    background: whitesmoke;
     font-family: 'Leckerli One', cursive;
     font-size: large;
-    background-color: rgb(141, 208, 144);
+    background-color: #e6dcb1;
 }
 
 h2 {
@@ -45,16 +45,16 @@ button {
     outline: none;
     cursor: pointer;
     box-shadow: 0 2px 4px gray;
-    border: 2px solid #4de962;
+    border: 2px solid #bd3634;
 }
 
 button:nth-child(1) {
     margin-left: -200px;
-    background: #4de962;
+    background: #bd3634;
 }
 
 button:nth-child(2) {
     margin-right: -200px;
     background: white;
-    color: #4de962;
+    color: #e94d58;
 }
