@@ -17,7 +17,7 @@ const handleYesClick = () => {
   const dateIdeas = [
     "Bigyan ng 1k yan",
     "Dapat hindi baba sa 500 bigay <3",
-    "Tumatanggap po ako ng kahit ano basta pera hehehe"
+    "Tumatanggap po ako ng kahit ano basta pera hehehe",
 
 
     // Add more date ideas as needed
