@@ -4,8 +4,8 @@ const gif = qs(".gif");
 const [yesBtn, noBtn] = [".yes-btn", ".no-btn"].map(qs);
 
 const handleYesClick = () => {
-  question.innerHTML = "Yun ohhh! Salamat Po! <3";
-  gif.src = "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzU4c2k4NTE5eW85ajd2M2Y5NGppMnNkaGh2cnliZTA4YnF5ZjduNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ULICv4YuYnCBG/giphy.webp";
+  question.innerHTML = "Yun ohhh! Salamat po!! <3";
+  gif.src = "https://media.giphy.com/media/fBPDt7yAbP9LSxRM7Q/giphy.gif";
 
   // Remove the 'mouseover' event listener from noBtn
   noBtn.removeEventListener("mouseover", handleNoMouseOver);
@@ -17,13 +17,15 @@ const handleYesClick = () => {
   const dateIdeas = [
     "Bigyan ng 1k yan",
     "Dapat hindi baba sa 500 bigay <3",
-    "Tumatanggap po ako ng kahit ano basta pera hehehe",
+    "Tumatanggap po ako ng kahit ano basta pera hehehe"
+
+
     // Add more date ideas as needed
   ];
 
   // Create and style a new button for Let's Go!
   const letsGoBtn = document.createElement("button");
-  letsGoBtn.textContent = "Thank you po <3";
+  letsGoBtn.textContent = "Thank you Po!!";
   letsGoBtn.classList.add("letsgo-btn"); // You can add a class for styling if needed
   letsGoBtn.style.position = "absolute";
 
@@ -42,7 +44,7 @@ const handleYesClick = () => {
     const randomIndex = Math.floor(Math.random() * dateIdeas.length);
     const selectedDateIdea = dateIdeas[randomIndex];
 
-    alert(`How about this romantic date idea: ${selectedDateIdea}`);
+    alert(`Note:  ${selectedDateIdea}`);
   });
 
   // Replace yesBtn with the new letsGoBtn
